@@ -63,13 +63,14 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     <link href="../codigo/Modulo_Docente_Frontend/3. Asistencia/P2.Registrar asistencia.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/multiple-select@1.5.2/dist/multiple-select.min.css">
     <link rel="stylesheet" href="../codigo/Módulo_Docente_Backend/assets/css/sidebar.css">
+    <link rel="stylesheet" href="assets/css/sidebar.css">
 </head>
 
 
 
 <body>
 
-    <?php require_once 'includes/sidebar_docente.php'; ?>
+    <?php require_once('includes/sidebar_docente.php'); ?>
 
 
     <div class="container m-6 p-5">
